@@ -1,5 +1,5 @@
 import UserImage from "../assets/UserImage.png";
-import StarIcon from "../assets/Star.svg";
+import StarIcon from "../assets/star.svg";
 
 export default function Reviews() {
   return (
