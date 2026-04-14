@@ -10,7 +10,7 @@ export default function AuthButtons() {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="size-5 mr-3"
+          className={`size-5 mr-3 ${theme === "dark" ? "hover:text-yellow-300" : "hover:text-blue-400"}`}
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           {theme === "dark" ? (
